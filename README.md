@@ -8,8 +8,11 @@ This repository contains code, resources for conducting Analysis of Variance (AN
 
 - `1wayAnova.ipynb`: Jupyter Notebook containing code for manually calculating One Way ANOVA using mathematical formulas.
 - `2wayAnova.ipynb`: Jupyter Notebook containing code for manually calculating Two Way ANOVA using mathematical formulas.
-- `data.csv`: Sample dataset used for ANOVA analysis.
+- `1waydata.csv`: Sample dataset used for One Way ANOVA analysis.
+- `2waydata.csv`: Sample dataset used for Two Way ANOVA analysis.
 - `README.md`: This file.
+
+Note: .csv files have been added for convenience, they are not used in code as the files just contain a mathematical to code explainations.
 
 ## Understanding ANOVA
 
@@ -36,7 +39,7 @@ The null hypothesis ($H_0$) in ANOVA states that there are no differences betwee
 ## How to Use
 
 1. Clone this repository to your local machine.
-2. Open the Jupyter Notebooks (`mathematical_anova.ipynb` and `package_anova.ipynb`) using Jupyter Notebook or JupyterLab.
+2. Open the Jupyter Notebooks (`1wayAnova.ipynb` and `2wayAnova.ipynb`) using Jupyter Notebook or JupyterLab.
 3. Follow the instructions in the notebooks to run the code and analyze the ANOVA results.
 4. Refer to the README.md file in each notebook for more detailed explanations.
 
