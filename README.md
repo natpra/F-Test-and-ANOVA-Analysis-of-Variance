@@ -25,9 +25,13 @@ Two-way ANOVA is an extension of one-way ANOVA that allows for the simultaneous 
 
 After conducting ANOVA analysis, it's important to interpret the results properly:
 
-- **F-value**: The F-value is a ratio of between-group variability to within-group variability. Higher F-values indicate stronger evidence against the null hypothesis.
-- **p-value**: The p-value represents the probability of observing the test statistic (F-value) or more extreme values if the null hypothesis is true. A low p-value suggests that the observed differences are unlikely to be due to random chance.
-- **Rejecting H0**: If the p-value is less than the chosen significance level (e.g., 0.05), we reject the null hypothesis and conclude that there are significant differences between groups.
+- **F-Value**: The F-value is a ratio of between-group variability to within-group variability. Higher F-values indicate stronger evidence against the null hypothesis.
+- **F-Critical**: The F critical value is the value from the F-distribution table corresponding to the chosen significance level and degrees of freedom. It is used to determine whether the observed F-value is statistically significant.
+- **Rejecting H0**: If the calculated F-value exceeds the critical F-value for a given significance level, we reject the null hypothesis and conclude that there are significant differences between groups.
+
+## Understanding $H_0$
+
+The null hypothesis ($H_0$) in ANOVA states that there are no differences between the means of the groups or conditions being compared. In other words, it assumes that any observed differences are due to random variability or chance. By conducting ANOVA, we test the null hypothesis to determine whether there is sufficient evidence to reject it in favor of an alternative hypothesis. If the calculated F-value is large enough to exceed the critical F-value, we reject H0 and conclude that there are significant differences between groups. Otherwise, we fail to reject H0, indicating that any observed differences are likely due to random chance.
 
 ## How to Use
 
@@ -40,6 +44,3 @@ After conducting ANOVA analysis, it's important to interpret the results properl
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-Feel free to customize this README.md file to include any additional information or sections relevant to your project.
