@@ -6,8 +6,8 @@ This repository contains code, resources for conducting Analysis of Variance (AN
 
 ## Contents
 
-- `mathematical_anova.ipynb`: Jupyter Notebook containing code for manually calculating ANOVA using mathematical formulas.
-- `package_anova.ipynb`: Jupyter Notebook demonstrating how to use Python packages like Pingouin for ANOVA analysis.
+- `1wayAnova.ipynb`: Jupyter Notebook containing code for manually calculating One Way ANOVA using mathematical formulas.
+- `2wayAnova.ipynb`: Jupyter Notebook containing code for manually calculating Two Way ANOVA using mathematical formulas.
 - `data.csv`: Sample dataset used for ANOVA analysis.
 - `README.md`: This file.
 
@@ -42,5 +42,5 @@ The null hypothesis ($H_0$) in ANOVA states that there are no differences betwee
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
